@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.script-text {
+  font-family: var(--font-dancing-script), cursive;
+  font-style: normal;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+               0 0 20px rgba(0, 255, 136, 0.3),
+               0 0 30px rgba(0, 255, 136, 0.2);
+}
+
+.glow-box {
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.3),
+              0 0 30px rgba(0, 204, 106, 0.2);
+}
+
+.glow-shimmer {
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+               0 0 20px rgba(0, 255, 136, 0.3),
+               0 0 30px rgba(0, 255, 136, 0.2),
+               0 0 40px rgba(0, 255, 136, 0.1);
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5),
+                 0 0 20px rgba(0, 255, 136, 0.3),
+                 0 0 30px rgba(0, 255, 136, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.7),
+                 0 0 30px rgba(0, 255, 136, 0.5),
+                 0 0 45px rgba(0, 255, 136, 0.3),
+                 0 0 60px rgba(0, 255, 136, 0.2);
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(-45deg, #0a0a0f, #1a1a2e, #16213e, #0a0a0f);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
