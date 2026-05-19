@@ -15,9 +15,7 @@ export default function Rules() {
     {
       title: "Tournament Format",
       items: [
-        "Double Elimination bracket",
-        "Each team is guaranteed 2 games",
-        "Loser's bracket provides second chance at championship"
+        "Subject to volume of teams"
       ]
     },
     {
