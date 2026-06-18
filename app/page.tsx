@@ -61,7 +61,7 @@ export default function Home() {
           </motion.h1>
 
           <motion.div
-            className="text-3xl md:text-4xl font-bold text-primary mb-12"
+            className="text-3xl md:text-4xl font-bold text-primary mb-12 script-text"
             initial={{ scale: 0.9 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.8, delay: 0.35 }}
