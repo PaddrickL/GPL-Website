@@ -60,6 +60,15 @@ export default function Home() {
             6th Annual 3 v 3 Classic
           </motion.h1>
 
+          <motion.div
+            className="text-3xl md:text-4xl font-bold text-primary mb-12"
+            initial={{ scale: 0.9 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.35 }}
+          >
+            July 26th
+          </motion.div>
+
           <Link href="/register">
             <motion.button
               className="px-12 py-6 bg-gradient-to-r from-primary to-secondary text-black font-bold rounded-full text-xl glow-box hover:scale-105 transition-transform duration-300"
