@@ -15,7 +15,8 @@ export default function Rules() {
     {
       title: "Tournament Format",
       items: [
-        "Subject to volume of teams"
+        "Subject to volume of teams",
+        "Each team is guaranteed at least 2 games regardless of format"
       ]
     },
     {
