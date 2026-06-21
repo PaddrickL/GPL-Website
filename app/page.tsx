@@ -66,7 +66,7 @@ export default function Home() {
             animate={{ scale: 1 }}
             transition={{ duration: 0.8, delay: 0.35 }}
           >
-            July 26th
+            July 25th
           </motion.div>
 
           <Link href="/register">
