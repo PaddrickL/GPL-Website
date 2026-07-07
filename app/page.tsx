@@ -83,8 +83,8 @@ export default function Home() {
           </Link>
 
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
             className="mt-8"
           >
@@ -92,7 +92,7 @@ export default function Home() {
               href="https://greendaleparkleague33.itemorder.com/shop/category/99908/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-primary transition-colors text-lg"
+              className="text-2xl md:text-3xl font-bold text-primary glow-text hover:scale-105 transition-transform duration-300"
             >
               Order Shelby Caldwell Fundraising T-Shirt
             </a>
