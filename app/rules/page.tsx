@@ -15,8 +15,7 @@ export default function Rules() {
     {
       title: "Tournament Format",
       items: [
-        "Double elimination",
-        "Each team is guaranteed at least 2 games regardless of format"
+        "Double elimination"
       ]
     },
     {
