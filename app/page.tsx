@@ -82,22 +82,6 @@ export default function Home() {
             </motion.button>
           </Link>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-12 text-center"
-        >
-          <a
-            href="https://greendaleparkleague33.itemorder.com/shop/category/99908/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl md:text-3xl font-bold text-primary glow-text hover:scale-105 transition-transform duration-300 underline underline-offset-4"
-          >
-            Order Shelby Caldwell Fundraising T-Shirt
-          </a>
-        </motion.div>
       </section>
     </div>
   );
